@@ -40,13 +40,13 @@
    }
    void move()
    {
-     if ((mouseX>myX)&&(dist(myX,myY,mouseX,mouseY)<75))
+     if ((mouseX>myX)&&(dist(myX,myY,mouseX,mouseY)<100))
      myX = myX + (int)(Math.random()*5)-3;
-     if ((mouseY>myY)&&(dist(myX,myY,mouseX,mouseY)<75))
+     if ((mouseY>myY)&&(dist(myX,myY,mouseX,mouseY)<100))
      myY = myY + (int)(Math.random()*5)-3;
-     if ((mouseX<myX)&&(dist(myX,myY,mouseX,mouseY)<75))
+     if ((mouseX<myX)&&(dist(myX,myY,mouseX,mouseY)<100))
      myX = myX + (int)(Math.random()*5);
-     if ((mouseY<myY)&&(dist(myX,myY,mouseX,mouseY)<75))
+     if ((mouseY<myY)&&(dist(myX,myY,mouseX,mouseY)<100))
      myY = myY + (int)(Math.random()*5);
      if(myX>399)
      myX=399;
