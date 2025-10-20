@@ -9,7 +9,7 @@
  {     
    //initialize bacteria variables here   
    size(400,400);
-   bob= new Bacteria[20];
+   bob= new Bacteria[30];
      for(int i = 0; i < bob.length;i++)
   {
     bob[i] = new Bacteria();
